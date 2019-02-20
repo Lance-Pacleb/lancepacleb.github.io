@@ -1,0 +1,157 @@
+
+<style>
+
+body{
+	margin:0px;
+	border:0px;
+	padding-top: 60px;
+}
+#navbar{
+	width:100%;
+	height:70px;
+	background-color: green;
+	color: white;
+	position: fixed;
+	top: 0px;
+}
+img.avatar {
+ 	 width: 3%;
+ 	 border-radius: 100%;
+  	height: 25px;
+  	margin-top: 5px;
+	left:calc(36%);
+	position:relative;
+	padding: 12px;
+}
+#linker{
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	text-align: center;
+	float:right;
+	padding:19px;
+}
+#linker:hover{
+	color: orange;
+}
+
+.signbtn{
+ 	width: 70px;
+  	height: 30px;
+ 	 border: solid #ccc;
+  	border-radius: 20px;
+  	background: transparent;
+  	color:white;
+ 	 outline: none;
+
+  	text-align: center;
+	float:right;
+	margin-top: 15px;
+}
+.signbtn:hover {
+  	background-color: orange;
+}
+#data {
+	width:100%;
+	height:500px;
+	background-color: blue;
+	color: white;
+	background-image: url(grocery.jpg);
+	background-size: cover;
+	 background-repeat: no-repeat;
+}
+h2{
+	text-align: center;
+}
+/*loinform*/
+input[type=email], input[type=password]{
+  	letter-spacing: 1p;
+ 		width: 100%;
+  	padding: 8px 18px;
+	 	margin: 8px 0;
+	  display: inline-block;
+  	border: 1px solid #ccc;
+  	box-sizing: border-box;
+  	border-radius: 20px;
+  	background: transparent;
+  	color: white;
+  	outline: none;
+}
+ .cancelbtn{
+  	float: right;
+  	margin-right: 20px;
+  	background-color: red;
+  	border:none;
+  	border-radius: 20px;
+ 		width: 30%;
+  	height: 35px;
+  	color: #fff;
+  	font-size: 20px;
+  	margin-top: 10px;
+  	outline: none;
+ }
+ .loginbtn{
+  	float: right;
+  	margin-right: 20px;
+  	background-color: blue;
+  	border:none;
+  	border-radius: 20px;
+  	width: 30%;
+  	height: 35px;
+  	color: #fff;
+  	font-size: 20px;
+  	margin-top: 10px;
+  	outline: none;
+ }
+.modal {
+  	width: 30%;
+  	height: 350px;
+  	background-color: rgba(0,0,0,0.9);
+  	border-radius: 20px;
+ 		border:1px solid black;
+  	color: white;
+  	padding-top: 60px;
+  	margin-left: 30%;
+  	position: all;
+
+}
+.modal-content{
+		padding:15px;
+}
+.move{
+		padding-top: 40px;
+}
+.home{
+  background-color: red;
+  color:yellow;
+  width:100%;
+  height:500px;
+  background-color: blue;
+  color: white;
+  background-image: url(grocery.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h2{
+  padding-top: 50px;
+  text-align: center;
+}
+.word2{
+  width:100%;
+  height: 50%;
+  background-color: rgb(209, 224, 224);
+  text-align:center;
+  padding-top: 0px;
+  font-size: 18px;
+  font-style: italic;
+}
+.word{
+  width:100%;
+  height: 10%;
+  background-color: rgb(153, 255, 153);
+  text-align:center;
+  padding-top: 0px;
+  font-size: 25px;
+}
